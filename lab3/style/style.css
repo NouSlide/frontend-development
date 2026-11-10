@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #212121;
+}
+
+h1 {
+    color: red;
+    font-size: 48px;
+}
+
+h2 {
+    color: orange;
+    font-size: 26px;
+}
+
+h3 {
+    color: green;
+    font-size: 18px;
+}
+
+main p {
+    line-height: 1.5em;
+    text-align: justify;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.navigate {
+    list-style-type: square;
+    margin: 14px;
+    display: flex;
+    justify-content: space-between;
+    background: pink;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.quote {
+  margin: 20px 0;
+  padding: 16px 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #4a90e2;
+  font-style: italic;
+  color: #333;
+}
+
+
+
