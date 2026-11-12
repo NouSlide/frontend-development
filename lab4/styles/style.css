@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav   main"
+        "footer footer"
+    ;
+    gap: 16px;
+}
+
+.navigate {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.news {
+    border: 5px solid black;
+}
+
+.info-friends img {
+    display: flex;
+    flex-wrap: wrap;
+}
